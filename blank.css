@@ -1,0 +1,71 @@
+ul{
+    margin-right: 50px;
+}
+li a{
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+#logo
+{
+    width: 90px; height: 120px;
+}
+
+.navbar a span {
+    position: relative; top: 40px; margin: 0px;
+}
+
+
+
+
+.navbar-nav .nav-item .nav-link {
+color: black;
+transition: 1s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+color: #28a745; /* Green (success) color */
+}
+
+
+
+
+.topbar .top-link li {
+
+display: inline;
+font-weight: 200;
+font-size:medium;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.topbar .top-link
+{
+margin-left: -50px;
+}
+.topbar .top-link li a{
+color: black;
+}
+
+.top-contact{
+float:right;
+list-style: none;
+margin-right: 40px;
+}
+.top-contact li {
+display: inline;
+margin-right: 20px;
+}
+
+.top-contact li a{
+text-decoration: none;
+margin-left: 8px;
+color: rgb(30, 117, 34);
+font-family: 'Times New Roman', Times, serif;
+
+}
+span{
+font-size: larger;
+font-weight: 600;
+margin-left: 8px;
+color: #0b3e17;
+}

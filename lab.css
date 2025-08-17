@@ -1,0 +1,104 @@
+.container {
+    margin-top: 30px;
+    position: relative;
+    left: 30px;
+    
+  }
+
+  h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 300;
+  }
+
+  .disease-box, .subtest-box {
+    border: 1px solid rgba(255, 0, 0, 0.865);
+    padding: 15px;
+    margin-bottom: 15px;
+   
+    cursor: pointer;
+    font-weight: 300;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+  }
+  .disease-box h3 {
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .disease-box{
+    background-color:azure;
+    border-color: #bec4c9;
+    color: #0e6322;
+  }
+  
+
+
+  .disease-box:hover, .subtest-box:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #0e6322;
+  }
+
+  .subtest-box .btn-success {
+    background-color: #28a745; /* Bootstrap's success color */
+    border-color: #28a745;
+  }
+
+
+
+
+#content {
+  margin-top: 30px;
+}
+
+#content h2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.lab-test-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.lab-test-image {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 20px;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.lab-test-content {
+  flex: 1;
+}
+
+.lab-test-container2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+.lab-test-image2 {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px;
+    flex: 1;
+    border-radius: 10px;
+  }
+  
+
+.lab-test-content2 {
+   text-align: left;
+   width: 100px;
+   flex: 1;
+
+    position: relative;
+    right: 20px;
+  }
